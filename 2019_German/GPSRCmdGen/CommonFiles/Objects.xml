@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+	This is an example file for testing the generators.
+	The real information used in Montreal 2018 will be published
+	and distributed by the Organizing Committee during Setup days
+//-->
+<categories>
+
+	<category name="kitchen stuff" defaultLocation="kitchen cabinet" room="kitchen" >
+		<object name="knife"   type="known" difficulty="high"/>
+		<object name="spoon"   type="known" difficulty="high"/>
+		<object name="fork"   type="known" difficulty="high"/>
+		<object name="plate"   type="known" difficulty="high"/>
+		<object name="cup"   type="known" difficulty="easy"/>
+		<object name="bowl"   type="known" difficulty="easy"/>
+	</category>
+    
+	<category name="drinks" defaultLocation="kitchen table" room="kitchen" >
+		<object name="apple_juice"   type="known" difficulty="moderate" canPour="true"/>
+		<object name="iso_drink"   type="known" difficulty="moderate" />
+		<object name="orange_juice"   type="known" difficulty="moderate" />
+		<object name="red_spritzer"   type="known" difficulty="moderate" />
+		<object name="sparkling_water"   type="known" difficulty="moderate" />
+	</category>
+
+	<category name="fruits" defaultLocation="bar table" room="bar">
+		<object name="lemon"      type="known" difficulty="easy"/>
+		<object name="orange"      type="known" difficulty="easy"/>
+	</category>
+
+	<category name="care"    defaultLocation="side table" room="bedroom">
+		<object name="shower gel"    type="known" difficulty="easy" />
+		<object name="soap"    type="known" difficulty="easy" />
+		<object name="toothpaste"    type="known" difficulty="easy" />
+	</category>
+
+	<category name="food"         defaultLocation="bookcase" room="living room">
+		<object name="bouillon" type="known" difficulty="high" />
+		<object name="corn" type="known" difficulty="easy" />
+		<object name="noodles" type="known" difficulty="moderate" />
+		<object name="pepper" type="known" difficulty="easy" />
+		<object name="salt" type="known" difficulty="easy" />
+		<object name="sauerkraut" type="known" difficulty="moderate" />
+		<object name="seasoning_mix" type="known" difficulty="moderate" />
+		<object name="tomatoes" type="known" difficulty="easy" />
+	</category>
+
+	<category name="food"       defaultLocation="cupboard" room="kitchen">
+		<object name="cereal"   type="known" difficulty="easy" />
+		<object name="noodles"  type="known" difficulty="easy" />
+		<object name="sausages" type="known" difficulty="easy" />
+	</category>
+
+	<category name="cleaning stuff"     defaultLocation="dishwasher" room="kitchen">
+		<object name="dishwasher tab"    type="known" difficulty="moderate" />
+		<object name="cloth"  type="known" difficulty="moderate" />
+	</category>
+
+	<category name="snacks"         defaultLocation="coffee table" room="living room">
+		<object name="cereal bar chocolate"     type="known" difficulty="moderate" />
+		<object name="cereal bar chocolate banana"     type="known" difficulty="moderate" />
+		<object name="cracker"     type="known" difficulty="easy" />
+		<object name="fruit bar apple"     type="known" difficulty="moderate" />
+		<object name="fruit bar forest fruit"     type="known" difficulty="moderate" />
+		<object name="get it"     type="known" difficulty="moderate" />
+		<object name="nut fuit mix"     type="known" difficulty="moderate" />
+		<object name="peanit bits"     type="known" difficulty="moderate" />
+	</category>
+</categories>
+
+
