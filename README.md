@@ -18,24 +18,9 @@ incporporated into a predefined story and there is neither a
 predefined order of tasks nor a predefined set of actions.  The
 actions that are to be carried out by the robot are chosen
 (pseudo-)randomly by the referees. In the competitions from 2010 to
-2013 variants of this command generator has been used to generate the
-commands given to the robot. The actions are organized in three
-categories with different complexity. Scoring depends on the
-complexity class. For more details, it is referred to the official
-rulebook_ of the 2013 `RoboCup@Home <http://www.robocupathome.org>`_
-competition in Eindhoven.
-
-*NOTE*: published here is a stripped down version of the generator. 
-See `Deviations`_.
-
-
-Deviations 
-^^^^^^^^^^ 
-
-The published generator does not contain all command templates and
-action synonyms from the generator actually used in competitions.
-It does not use all locations (rooms and non-grasping locations are left out). 
-
+2019 variants of this command generator has been used to generate the
+commands given to the robot. The actions are organized in categories with 
+different complexity. Scoring depends on the complexity class. 
 
 
 Installing and running
@@ -72,12 +57,6 @@ The following are example commands generated when running the script as above.
 * Category III (erroneous information)::
 
    Bring me the Milk from the dresser. (But there is NO object!)
-
-
-.. _rulebook: http://www.robocupathome.org/rules/2013_rulebook.pdf
-.. |--| unicode:: U+2013   .. en dash
-.. |---| unicode:: U+2014  .. em dash, trimming surrounding whitespace
-   :trim:
 
 
 Originated from https://github.com/RoboCupAtHome/gpsr_command_generator
