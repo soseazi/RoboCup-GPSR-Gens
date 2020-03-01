@@ -8,8 +8,8 @@ gpsr_command_generator
 the the `RoboCup@Home <http://www.robocupathome.org>`_ competitions
 for the "General Purpose Service Robot (GPSR)" test.
 
-Introduction |---| What is GPSR?
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+## Introduction: What is GPSR?
+
  
 The series of GPSR tests evaluate all abilities of the robots that are
 requrired throughout the set of tests in stages I and II. The robot
@@ -23,8 +23,7 @@ commands given to the robot. The actions are organized in categories with
 different complexity. Scoring depends on the complexity class. 
 
 
-Installing and running
-^^^^^^^^^^^^^^^^^^^^^^
+## Installing and running
 
 The latest version of the (publicly available) stripped down variant
 of the GPSR command generator can be directly obtained from github::
@@ -41,8 +40,7 @@ It will then prompt for entering the desired command category and generate a ran
    Which category do you want to do?   1, 2, 3 or q(uit)
 
 
-Examples
-^^^^^^^^
+## Examples
 
 The following are example commands generated when running the script as above.
 
